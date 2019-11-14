@@ -1,0 +1,104 @@
+This file contains all of the output of each part of the project.  This is
+here because at the end of the lab handout it asks for printed output so I am
+making sure you have it if something goes wrong.  There was use of unicode
+characters in the programs so you never know.  Hopefully, if they don't show
+up in grading they will show up here!
+
+
+* UPDATE : After copy and pasting the first part of part A, it is very clear
+  that text files in the terminal on Data do not support unicode.  Again, it
+  works fine running the file on the shell on Data.  Please refer to that
+  output if you want to see the unicode characters. *
+
+
+PART A:
+
+	Subpart One (10^6):
+
+		Calculate the prime numbers p such that p = {p ∈ ℤ | 0
+		≤ p ≤ 10^6 and p is only divisible by one and itself}.
+
+		The first 5 primes are: 
+		1 : 2
+		2 : 3
+		3 : 5
+		4 : 7
+		5 : 11
+
+		The last 5 primes are: 
+		78494 : 999953
+		78495 : 999959
+		78496 : 999961
+		78497 : 999979
+		78498 : 999983
+
+		The total number of primes up to 10^6 is: 78498
+		The approximate number of primes is: π(10^6) = 10^6/ln(10^6)
+		= 72382
+
+	Subpart Two (7^t):
+
+		The number of primes up to and including 7^t such that t = {t
+		∈ ℤ | 2 ≤ t ≤ 7}:
+
+		t = 2 : 15	π(7^2) = 7^2/ln(7^2) = 12
+		t = 3 : 68	π(7^3) = 7^3/ln(7^3) = 58
+		t = 4 : 357	π(7^4) = 7^4/ln(7^4) = 308
+		t = 5 : 1939	π(7^5) = 7^5/ln(7^5) = 1727
+		t = 6 : 11098	π(7^6) = 7^6/ln(7^6) = 10076
+		t = 7 : 65685	π(7^7) = 7^7/ln(7^7) = 60459
+
+PART B:
+
+		Calculate the prime numbers p such that p = {p ∈ ℤ |
+		2*10^8 ≤ p ≤ 2*10^8+10^6 and p is only divisible by one
+		and itself}.
+
+		The first 5 primes are: 
+		1 : 200000033
+		2 : 200000039
+		3 : 200000051
+		4 : 200000069
+		5 : 200000081
+
+		The last 5 primes are: 
+		52322 : 200999849
+		52323 : 200999881
+		52324 : 200999927
+		52325 : 200999963
+		52326 : 200999983
+
+		The total number of primes between 2*10^8 and 2*10^8+10^6 is :
+		52326
+		The approximate number of primes between 2*10^8 and
+		2*10^8+10^6 is : π(J) - π(I) = (J/lnJ) - (I/lnI) = 49574
+
+PART C:
+
+		Calculate the non-crossed-out numbers p such that p = {p ∈
+		ℤ | 2*10^8 ≤ p ≤ 2*10^8+10^6}.
+
+		The first 5 numbers not crossed out are: 
+		1 : 200000027
+		2 : 200000033
+		3 : 200000039
+		4 : 200000041
+		5 : 200000051
+
+		The last 5 numbers not crossed out are: 
+		81724 : 200999963
+		81725 : 200999969
+		81726 : 200999971
+		81727 : 200999983
+		81728 : 200999989
+
+		The total number of non-crossed-out numbers between 2*10^8 and
+		2*10^8+10^6 is : 81728
+		The approximate number of primes between 2*10^8 and
+		2*10^8+10^6 is : π(J) - π(I) = (J/lnJ) - (I/lnI) = 49574
+
+
+
+
+
+

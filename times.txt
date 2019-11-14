@@ -1,0 +1,35 @@
+This file is where the runtime analysis statistics are stored for each part.
+These times were computed using the UNIX time command.  Please note, Part A is
+dependent on user IO.  For each subsection of Part A, I tried to run the
+desired subsection and exit the program as fast as possible - this should not
+affect the system time though.
+
+PART A :
+
+	Subsection 1 (10^6) :
+				
+		real	0m0.705s
+		user	0m0.040s
+		sys	0m0.000s
+
+	Subsection 2 (7^t) :
+
+		real	0m0.775s
+		user	0m0.040s
+		sys	0m0.000s
+
+PART B :
+
+		real	0m0.047s
+		user	0m0.040s
+		sys	0m0.000s
+
+PART C :
+
+		real	0m0.041s
+		user	0m0.030s
+		sys	0m0.010s
+
+
+* These computations were performed on Data *
+

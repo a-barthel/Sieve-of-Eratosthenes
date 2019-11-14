@@ -1,0 +1,73 @@
+CS355 - Cryptography
+Fall 2016 - Purdue University
+Prof. Wagstaff
+TTh 1:30
+
+Andrew Barthel
+abarthe@purdue.edu
+
+PROJECT ONE - Sieve of Eratosthenes - Counting Prime Numbers
+
+* DISCLAIMER : I use unicode characters in these files in order to make mathematical expressions easier on the eyes, if the computer does not have unicode support then bad things might happen.  I wrote and tested these files on Data and they worked perfectly. *
+* UPDATE : Compiled on Lore perfectly, just gave all of the files a test run and they're still printing the unicode characters. I'm all set! *
+
+Part A: 
+	
+	Source Code - partA.c
+
+	To run it, type "make" or "make clean && make" to compile it and, once compiled run the command "./partA".  This program uses the Sieve of Eratosthenes algorithm to compute the prime numbers up to a given limit.  Once it is running, it will ask the user for the primes < 10^6 or to count the number of primes less than or equal to 7^t such that t = 2, 3, ..., 7.  For the first option, it will print the first 5 primes and the last 5 primes(format: i'th prime : the prime number itself) up to < 10^6 and it will also print the number of primes found along with the approximation 10^6/ln10^6.  For part two, it will print out the number of primes for each t value as well as the approximation 7^t/ln7^t for each t value. To execute the first option press one after the prompt, to run the second option press two after the prompt, to exit press zero after the prompt, and any other input will re-print the prompt as it was an invalid prompt input.
+
+	The UNIX time command for both part one and part two mentioned above will be in the file times.txt along with the other running times of this project.
+
+
+
+
+Part B:
+
+	Source Code - partB.c
+
+	To run it, type "make" or "make clean && make" to compile it and, once compiles run the command "./partB".  This program uses a modified version of Sieve of Eratosthenes algorithm to compute the prime numbers between 2*10^8 and 2*10^8+10^6.  The output of this program will print the first 5 primes in that range and the last 5 primes in that range, it will also print out the number of primes in that range as well as the approximation (J/lnJ)-(I/lnI).
+
+	The UNIX time command for this program will be in the file times.txt along with other running times of this project.
+
+
+
+
+Part C:
+	
+	Source Code - partC.c
+
+	To run it, type "make" or "make clean && make" to compile it and, once compiled run the command "./partC".  This program uses a modified version of the previously modified version of Sieve of Eratosthenes algorithm to compute the prime numbers between 2*10^8 and 2*10^8+10^6.  The output of this program will be the first 5 numbers NOT crossed out and the last 5 numbers NOT crossed out.  It will also print the number of numbers that have not been crossed out in that range as well as the approximation (J/lnJ)-(I/lnI).
+
+	The UNIX time command for this program will be in the file times.txt along with other running times of this project.
+
+	There are also three questions associated with this part of the project.  The answers to these three questions will be in the file questions.txt with the questions restated so there is no confusion as to which question is being answered.
+
+
+
+
+ITEMIZATION:  * I will not include the executables in the submission. I am sure you will 
+		recompile the src files anyway so this means less space my submission takes 
+		up.  Just type make and they will be good as new! *
+	
+	Source Files:
+		
+		partA.c - src file for both subparts of Part A
+		partB.c - src file for Part B
+		partC.c - src file for Part C
+		Makefile - file used to autocompile src files and autoremove executables
+
+	Text Files
+
+		questions.txt - answers to the 3 questions in Part C
+		times.txt - printed results of the UNIX time command for all parts
+		output.txt - printed results of each part - did not include prompt for Part A as it was not needed nor specified in the lab handout.
+
+
+
+
+Final Thoughts:
+
+I think this project was pretty entertaining.  It is truely one of the first, if not the first, project that I have started from scratch without skeleton code at Purdue.  I'm sure if I had a bit more time I would clean up the code as it is messy by my standards.  Content wise, the algorithm was very fun and surprisingly efficient even with dealing with relatively large integers.  I also loved the fact that you gave us the option to do the project in C or Java.  Lastly, the math behind this project is almost magical - still in awe with how simple and eligant it is. Sometimes, number theory is mindblowing!  Loved this project and can't wait for more!
+
+	~ Andrew Barthel

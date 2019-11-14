@@ -1,0 +1,63 @@
+These are the questions from Part C.  There are three questions and they all
+pertain to Part C.
+
+1.) Describe in words what numbers are in your table and not crossed out.
+
+	The numbers in the table that are not crossed out are the numbers that
+	have factors that are prime numbers greater than 1000.  This is
+	because in Part B the algorithm used L as sqrt(J) instead of 1000.
+	Therefore, it found the prime numbers between 0 and sqrt(J), which
+	contains many more prime numbers, and then found the smallest multiple
+	of the i'th prime and continued to add that prime to cross out all
+	numbers that were divisible by that prime between I and J.  Since Part
+	C only had the primes between 0 and 1000, we took each prime and found
+	the smallest multiple greater than I and continued to add that prime
+	upon itself marking out numbers.  Since 0 to 1000 has less primes than
+	0 to sqrt(J), there were numbers that were not prime between I and J
+	that were not crossed out.  These numbers are the ones that were
+	divisible by primes greater than 1000 and not divisible by primes
+	lower than 1000.  You can say that the set of numbers not crossed out are
+	relatively prime to the set of prime numbers between 0 and 1000.
+
+2.) Are the primes between I and J crossed out or not crossed out? Explain.
+
+	The prime numbers between I and J are not crossed out.  This is
+	because of the way the algorithm works.  Since the prime numbers
+	between I and J are, by definition, only divisible by 1 and itself,
+	there couldn't possibly be a prime number between 0 and 1000 that
+	could have been multiplied to at least greater than or equal to I then
+	added uppon itself to equal any of the primes inbetween I and J.  This
+	is because if any prime p inbetween 0 to 1000 would have to be a factor
+	of any number it crosses out.  Thus, since primes are only divisible
+	by 1 and itself, and neither 1 nor itself is a prime number between 0
+	and 1000, there are no factoring numbers in the set of prime numbers
+	between 0 and 1000.  Therefore, all of the prime numbers between I and
+	J are still not crossed out!
+
+3.) Are the composites between I and J crossed out or not crossed out?
+Explain.
+
+	Yes and no.  Most of the composite numbers between I and J have been
+	crossed out since there are 52326 primes between I and J and in Part C
+	we now have 81728 numbers not crossed out.  Since all of the prime
+	numbers are still not crossed out, this means that there are 29402
+	composite numbers that are not crossed out. Since there are 947674
+	composite numbers between I and J, it's fairly clear most of the
+	composite numbers are crossed out however.  This is because there are
+	several thousand numbers inbetween I and J that were not able to be
+	factored by the set of prime numbers lower than 1000.  The composite
+	numbers left not crossed out are all divisible by only prime numbers
+	greater than 1000.  Specifically, the numbers that can divide the
+	composite numbers not crossed out are two prime numbers, one of which
+	is greater than 1000 and less than sqrt(J) and the other is greater
+	than sqrt(J). However, since neither of the factors of these few composite
+	numbers that weren't crossed out were not below 1000 and prime, this
+	allowed them to never be crossed out since we never went higher than
+	1000 to find a factor.
+
+
+
+
+
+
+
